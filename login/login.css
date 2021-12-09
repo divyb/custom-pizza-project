@@ -1,0 +1,97 @@
+body
+{
+    background-color: #151515;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.leftcolumn
+{
+    border-right: 1px solid #B4A5A5;
+    margin-left: -1%;
+    height: 100%;
+    float: left;
+    width: 13%;
+    position: sticky;
+}
+.leftcolumn img
+{
+    height: 7%;
+}
+.name
+{
+    border-bottom: 1px solid #3C415C;
+    text-align: center;
+}
+.cart,.login
+{
+    padding: 1%;
+    
+    border-bottom: 1px solid #3C415C;
+}
+
+.name h2:hover
+{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+.leftcolumn img:hover
+{
+    transform: scale(1.2);
+    transition: all ease 500ms;
+}
+.main
+{
+    display: flex;
+    float: left;
+    width: 87%;
+    height: 100%;
+    max-width: 87%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginbox
+{
+    width: 40%;
+    height: 70%;
+    
+    border-radius: 2%;
+    background-color: #3C415C;
+    display: table;
+    text-align: center;    
+
+}
+input
+{
+    background:none;
+    border:none;
+    border-bottom:1px solid #B4A5A5;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    font-size: x-large;
+    width: 60%;
+}
+
+input, select, textarea{
+    color: #B4A5A5;
+}
+
+textarea:focus, input:focus {
+    color: #B4A5A5;
+}
+.submit
+{
+    background: #B4A5A5;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    font-size: x-large;
+    color: #301B3F;
+}

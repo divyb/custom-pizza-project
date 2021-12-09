@@ -1,0 +1,96 @@
+body
+{
+    background-color: #151515;
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.leftcolumn
+{
+    border-right: 1px solid #B4A5A5;
+    margin-left: -1%;
+    margin-bottom: -1%;
+    height: 100%;
+    float: left;
+    width: 13%;
+    position: sticky;
+}
+.leftcolumn img
+{
+    height: 7%;
+}
+.name
+{
+    border-bottom: 1px solid #3C415C;
+    text-align: center;
+}
+.cart,.login
+{
+    padding: 1%;
+    
+    border-bottom: 1px solid #3C415C;
+}
+
+.name h2:hover
+{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+.leftcolumn img:hover
+{
+    transform: scale(1.2);
+    transition: all ease 500ms;
+}
+
+
+.main
+{
+    
+    float: left;
+    width: 87%;
+    height: 100%;
+    max-width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mem1
+{
+    width: 40%;
+    height: 70%;
+    float: left;
+    border-radius: 2%;
+    background-color: #3C415C;
+    text-align: center;
+    margin-right: 5%;
+    padding: 2%;
+    
+
+}
+p
+{
+    font-size: x-large;
+}
+.mem2
+{
+    width: 40%;
+    height: 70%;
+    float: left;
+    border-radius: 2%;
+    background-color: #3C415C;
+    text-align: center;
+    padding: 2%;
+
+}
+
+.imgs
+{
+    height: 40%;
+    border-radius: 50%;
+}

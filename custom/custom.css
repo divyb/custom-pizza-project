@@ -1,0 +1,130 @@
+
+body
+{
+    background-color: #151515;
+    color: white;
+}
+
+.leftcolumn
+{
+    border-right: 1px solid #B4A5A5;
+    margin-left: -1%;
+    height: 100%;
+    float: left;
+    width: 13%;
+    position: sticky;
+}
+.leftcolumn img
+{
+    height: 7%;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.name
+{
+    border-bottom: 1px solid #3C415C;
+    text-align: center;
+}
+.cart,.login
+{
+    padding: 1%;
+    
+    border-bottom: 1px solid #3C415C;
+}
+
+.name h2:hover
+{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+.leftcolumn img:hover
+{
+    transform: scale(1.2);
+    transition: all ease 500ms;
+}
+
+
+.main
+{
+    
+    float: left;
+    width: 87%;
+    height: 100%;
+    max-width: 87%;
+}
+.pizza
+{
+    display: flex;
+    height: 100%;
+    float: left;
+    width: 60%;
+    
+}
+.ingredients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    
+    width: 35%;
+    height: 80%;
+    
+}
+label
+{
+    font-size: large;
+}
+.base
+{
+    position: relative;
+}
+.pepperoni
+{
+    position: relative;
+    top: 0%;
+    right: 91%;
+}
+.olive
+{
+    position: relative;
+    right: 186%;
+    
+}
+.onion
+{
+    position: relative;
+    right: 286%;
+    
+}
+.tomatoes
+{
+    position: relative;
+    right: 375%;
+    
+}
+.mushroom
+{
+    position: relative;
+    right: 475%;
+    
+}
+.capsicum
+{
+    position: relative;
+    right: 560%;
+    
+}
+.submit
+{
+    background: #B4A5A5;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    font-size: large;
+    color: #301B3F;
+}
